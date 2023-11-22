@@ -1,0 +1,46 @@
+main{
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  body li{
+    display: inline;
+    list-style: none;
+  }
+  
+  nav{
+    max-width: 100%;
+    display: flex;
+    padding: 1rem;
+  }
+  
+  nav li{
+     margin-right: 20px;
+     justify-content: space-between;
+  }
+  
+  .tagslist ul{
+    position: relative;
+    left: -38;
+  }
+  
+  .tagslist ul li a{
+    background-color: var(--gray);
+    padding: 5px;
+  }
+  
+  .highlight{
+    background-color: var(--accent-background); 
+    color: hsl(50, 70%, 35%); 
+  }
+  
+  h1{
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+  }
+  
+  footer{
+    display: flex;  
+    justify-content: space-between;
+  }
+  
